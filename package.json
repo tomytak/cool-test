@@ -1,14 +1,14 @@
 {
   "name": "npm-demo-thing",
-  "version": "0.0.1",
-  "description": "Cool Test",
+  "version": "1.0.0",
+  "description": "in-class demi with david",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --public-url ./"
   },
-  "author": "",
+  "author": "john doe",
   "license": "ISC",
   "dependencies": {
     "giftbag": "^1.1.2"

@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="scss/styles.scss">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo with David</title>
+    <link rel="stylesheet" href="scss/style.scss" />
 </head>
-
 <body>
-    <section class="full"></section>
-    <section id="parallax">
-        <div data-parallax-speed="0.9" class="parallax-element first"></div>
-        <div data-parallax-speed="0.6" class="parallax-element second"></div>
-        <div data-parallax-speed="-0.3" class="parallax-element third"></div>
+    <section class="full">
+        <h1>David's in-class Demo</h1>
+        <p>Parallax is first...</p>
     </section>
-    <section class="full"></section>
-    <h1 data-reverse>
-        <script src="js/scripts.js"></script>
+    <section id="parallax">
+        <div data-parallax-speed=".7" class="parallax-element first">One</div>
+        <div data-parallax-speed="1" class="parallax-element second">Two</div>
+        <div data-parallax-speed="1.3" class="parallax-element third">Three</div>
+    </section>
+    <section class="full">
+        <h2>Scroll triggered elements next...</h2>
+    </section>
+    <section id="scroll">
+        <h1 class="scroll-element">Scroll Element</h1>
+    </section>
+    <section class="full">
+        <h2>Thanks David!</h2>
+    </section>
+    <script src="js/script.js"></script>
 </body>
-
 </html>

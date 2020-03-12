@@ -1,0 +1,61 @@
+// variables
+
+$mybgcolor: red;
+
+// reset
+body { margin: 0; }
+* { box-sizing: border-box;}
+
+// styling
+// body { background: $mybgcolor; }
+
+.full {
+    height: 100vh;
+    background: $mybgcolor;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+#parallax {
+    padding: 20vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;;
+
+    .parallax-element {
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+
+    .first { 
+        background: green;
+        top: 50px;
+        right: 50px;
+    }
+    .second { 
+        background: blue;
+    }
+    .third { 
+        background: orange;
+        bottom: 50px;
+        left: 50px;}
+
+}
+
+#scroll {
+    padding: 20vh 0;
+    display: grid;
+    place-items: center;
+
+    h1 {
+        opacity: 0;
+        transition: all 2s linear;
+
+        &.visible {
+            opacity: 1;
+        }
+    }
+}
