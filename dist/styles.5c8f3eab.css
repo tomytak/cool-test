@@ -13,6 +13,8 @@ body {
 .full {
   height: 100vh;
   background: red;
+  display: grid;
+  place-items: center;
 }
 
 #parallax {
